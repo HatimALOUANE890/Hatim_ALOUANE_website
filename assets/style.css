@@ -35,7 +35,7 @@ body{
 .hero{padding:60px 0}
 .hero-grid{display:grid;grid-template-columns:1fr 180px;gap:20px;align-items:center}
 .hero-left h1{margin:0;font-size:36px}
-.tagline{color:var(--accent);font-weight:600;margin:8px 0}
+.tagline{color:var(--accent);font-weight:600;margin:5px 0}
 .lead{color:var(--muted);max-width:40ch}
 .actions{margin-top:18px;display:flex;gap:12px}
 .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none}

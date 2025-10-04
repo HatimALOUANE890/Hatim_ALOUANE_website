@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Hatim Alouane</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Hatim Alouane</a>
+      <nav class="nav" id="nav-4">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+      <button id="nav-toggle-4" class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact</h1>
+    <p>Tu peux me joindre par mail, téléphone ou via LinkedIn / Kaggle.</p>
+
+    <div class="contact-grid">
+      <div>
+        <h3>Coordonnées</h3>
+        <p>Email: <a href="mailto:hatim.alouane@centrale-casablanca.ma">hatim.alouane@centrale-casablanca.ma</a></p>
+        <p>Téléphone: <a href="tel:+212606573240">+212 606 573 240</a></p>
+
+        <h4>Réseaux</h4>
+        <p><a href="https://www.linkedin.com/in/hatim-alouane-603b691b8/" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p><a href="https://www.kaggle.com/hatimalouane" target="_blank" rel="noopener">Kaggle</a></p>
+      </div>
+
+      <div>
+        <h3>Envoyer un message</h3>
+        <!-- Formulaire simple : redirige vers mailto pour simplicité -->
+        <form id="contact-form" action="mailto:hatim.alouane@centrale-casablanca.ma" method="GET" onsubmit="return sendMail(event);">
+          <label for="name">Nom</label>
+          <input id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Envoyer</button>
+          </div>
+        </form>
+        <p class="muted">(Le formulaire ouvre votre client de messagerie par défaut.)</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-4"></span> Hatim Alouane</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

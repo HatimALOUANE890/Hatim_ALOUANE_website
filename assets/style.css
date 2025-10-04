@@ -33,15 +33,15 @@ body{
 
 /* hero */
 .hero{padding:48px 0}
-.hero-grid{display:grid;grid-template-columns:1fr 240px;gap:36px;align-items:center}
+.hero-grid{display:grid;grid-template-columns:1fr 280px;gap:36px;align-items:center}
 .hero-left h1{margin:0;font-size:36px}
 .tagline{color:var(--accent);font-weight:600;margin:8px 0}
 .lead{color:var(--muted);max-width:60ch}
 .actions{margin-top:18px;display:flex;gap:12px}
 .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none}
 .btn.outline{background:transparent;border:1px solid var(--accent);color:var(--accent)}
-.photo-frame{width:90%;max-width:200px;padding:8px;border-radius:16px;background:linear-gradient(180deg,#fff, #f3f6fb);display:flex;align-items:center;justify-content:center}
-.photo-frame img{width:90%;border-radius:9px;display:block}
+.photo-frame{width:100%;max-width:290px;padding:10px;border-radius:16px;background:linear-gradient(180deg,#fff, #f3f6fb);display:flex;align-items:center;justify-content:center}
+.photo-frame img{width:100%;border-radius:10px;display:block}
 
 /* skills */
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;list-style:none;padding:0;margin:12px 0}

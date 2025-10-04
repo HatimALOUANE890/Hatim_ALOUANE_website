@@ -40,7 +40,7 @@ body{
 .actions{margin-top:18px;display:flex;gap:12px}
 .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:10px;text-decoration:none}
 .btn.outline{background:transparent;border:1px solid var(--accent);color:var(--accent)}
-.photo-frame{width:100%;max-width:290px;padding:10px;border-radius:18px;background:linear-gradient(180deg,#fff, #f3f6fb);display:flex;align-items:center;justify-content:center}
+.photo-frame{width:100%;max-width:400px;padding:10px;border-radius:18px;background:linear-gradient(180deg,#fff, #f3f6fb);display:flex;align-items:center;justify-content:center}
 .photo-frame img{width:100%;border-radius:10px;display:block}
 
 /* skills */
